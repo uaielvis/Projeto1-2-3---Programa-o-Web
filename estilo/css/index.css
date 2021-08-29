@@ -166,3 +166,82 @@ img {
   
   .form-login form input.erroLogin::placeholder {
     color: black;
+}
+
+/*Estilização do form de login > BUTTON*/
+.form-login-botao {
+  margin: 1rem 0 1.5rem;
+  height: 3rem;
+  background-color: #3897f0;
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+/*Estilização do form de consulta*/
+.formFilters {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter {
+  padding: 0.8rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #eee;
+  border-radius: 0.2rem;
+}
+
+/*Estilização do separador "OU"*/
+.separador {
+  font-size: 1.3rem;
+  color: rgba(var(--b6a, 219, 219, 219), 1);
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.separador::before,
+.separador::after {
+  content: '';
+  position: absolute;
+  background-color: #eee;
+  width: 40%;
+  height: 1.5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.separador::before {
+  left: 0;
+}
+
+.separador::after {
+  right: 0;
+}
+
+/*Estilização "Entrar com o Facebook"*/
+.entrar-com-facebook {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #385185;
+  margin-bottom: 2.5rem;
+}
+
+.entrar-com-facebook i {
+  font-size: 2rem;
+  margin-right: 0.7rem;
+}
+
+.entrar-com-facebook .facebookLogotipo {
+  display: inline-block;
+  margin-right: 8px;
+  position: relative;
+  top: 3px;
+  background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_32f0a4f27407.png/32f0a4f27407.png);
+  background-position: -414px -259px;
+  height: 16px;
+  width: 16px;
+}
