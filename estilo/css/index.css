@@ -27,3 +27,78 @@
     justify-content: space-between;
     padding-top: 2rem;
   }
+  #wrapper > .container {
+  display: flex;
+  padding: 0 8rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 93.5rem;
+  margin: 3rem auto 0;
+}
+
+/*Estilização do smartphone de demonstração*/
+.smartphone-demonstracao {
+  background-image: url(https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png);
+  height: 61.8rem;
+  width: 45.4rem;
+  margin-left: -3.3rem;
+  margin-top: 3.35rem;
+}
+
+.smartphone-demonstracao img {
+  position: relative;
+  top: 98px;
+  right: -149px;
+  height: 43.2rem;
+  width: 24.3rem;
+}
+
+.smartphone-result-text {
+  background-color: transparent;
+  font-size: 2rem;
+  top: 1.7rem;
+  height: 38.2rem;
+  width: 24.3rem;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  text-align: center;
+}
+
+.text-result {
+  font-weight: normal;
+  font-size: small;
+}
+
+.smartphone-result {
+  background-image: url('/images/layout.jpeg');
+  background-size: contain;
+  background-color: #fafafa;
+  position: relative;
+  top: 97.2px;
+  right: -43.9px;
+  height: 43.2rem;
+  width: 24.3rem;
+}
+
+.smartphone-result-text::-webkit-scrollbar {
+  display: none;
+}
+
+.smartphone-result li {
+  margin: 1rem;
+  font-size: 1.5rem;
+  text-align: left;
+  list-style-type: none;
+  color: black;
+}
+
+h1.error {
+  color: red;
+}
+
+h1.success {
+  color: blue;
+}
