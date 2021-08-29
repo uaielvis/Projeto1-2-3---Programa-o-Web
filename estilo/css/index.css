@@ -102,3 +102,67 @@ h1.error {
 h1.success {
   color: blue;
 }
+/*Estilização da imagem interna do smartphone de demonstração*/
+img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+  }
+  
+  .imgResult {
+    height: 1rem;
+    width: 1rem;
+  }
+  
+  /*Estilização de links*/
+  a {
+    text-decoration: none;
+  }
+  
+  /*Estilização do form de login*/
+  .form-login {
+    width: 100%;
+    max-width: 35rem;
+    margin-left: -1.35rem;
+    margin-top: 6.6rem;
+  }
+  
+  .form-login form {
+    background-color: #fff;
+    border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+    text-align: center;
+  }
+  
+  /*Estilização do form de login > LOGOTIPO*/
+  h1 {
+    height: 5.1rem;
+    width: 17.5rem;
+    margin: auto;
+    position: relative;
+  }
+  
+  .logotipo h1 {
+    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_32f0a4f27407.png/32f0a4f27407.png);
+    background-position: 0 -130px;
+    margin-bottom: 2.5rem;
+    margin-top: 1.3rem;
+    margin-left: 4.5rem;
+  }
+  
+  /*Estilização do form de login > INPUT*/
+  .form-login form input {
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #eee;
+    border-radius: 0.2rem;
+  }
+  
+  .form-login form input.erroLogin {
+    background-color: red;
+  }
+  
+  .form-login form input.erroLogin::placeholder {
+    color: black;
