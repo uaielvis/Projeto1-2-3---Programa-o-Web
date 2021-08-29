@@ -102,3 +102,11 @@ dist
 
 # TernJS port file
 .tern-port
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Temporary folders
+tmp/
+temp/
+
+# End of https://www.toptal.com/developers/gitignore/api/node 
